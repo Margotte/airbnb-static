@@ -1,0 +1,6 @@
+<h1><%= @flat["name"] %></h1>
+
+<!-- <img src="<%# @flat["imageUrl"] %>" alt=""> -->
+<%= image_tag  @flat["imageUrl"], width: "200px"%>
+
+<%= link_to "back to all flats", flats_path %>
